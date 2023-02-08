@@ -14,7 +14,7 @@ app.use(express.json());
 mongoose.set("strictQuery", false);
 mongoose
   .connect(process.env.MONG0_URL)
-  .then(() => console.log("DB Connection Successful!"))
+  .then(() => console.log("DB Connection is Successful!"))
   .catch((err) => {
     console.log(err);
   });
