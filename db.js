@@ -7,5 +7,5 @@ export const db = mysql2.createConnection({
   host: "localhost",
   user: "root",
   password: process.env.MySQL_PASSWORD,
-  database: "blog",
+  database: "learnislam",
 });
